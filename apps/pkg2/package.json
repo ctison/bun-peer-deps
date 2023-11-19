@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "peerDependencies": {
+    "ethers": "6"
+  },
+  "main": "index.js"
+}
