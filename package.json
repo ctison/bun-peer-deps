@@ -1,11 +1,10 @@
 {
   "private": true,
   "dependencies": {
-    "pkg1": "./apps/pkg1",
-    "pkg2": "./apps/pkg2"
+    "pkg1": "file:./apps/pkg1",
+    "pkg2": "file:./apps/pkg2"
   },
-  "devDependencies": {
-    "bun-types": "1.0.13"
-  },
-  "main": "index.js"
+  "main": "index.js",
+  "type": "module",
+  "packageManager": "pnpm@8.10.5"
 }

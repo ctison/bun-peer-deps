@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  pkg1:
+    specifier: file:./apps/pkg1
+    version: file:apps/pkg1
+  pkg2:
+    specifier: file:./apps/pkg2
+    version: file:apps/pkg2
+
+packages:
+
+  file:apps/pkg1:
+    resolution: {directory: apps/pkg1, type: directory}
+    name: pkg1
+    peerDependencies:
+      ethers: '5'
+    dev: false
+
+  file:apps/pkg2:
+    resolution: {directory: apps/pkg2, type: directory}
+    name: pkg2
+    peerDependencies:
+      ethers: '6'
+    dev: false

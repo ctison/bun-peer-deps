@@ -1,6 +1,6 @@
-# Bun peer deps resolution failing
+# Pnpm peer deps resolution failing
 
-The CI of this repo will fail as long as Bun don't segregate the installation of dependencies (peer deps auto installed in this example).
+The CI of this repo will fail as long as pnpm don't segregate the installation of dependencies (peer deps auto installed in this example).
 
 Root pkg depends on:
 

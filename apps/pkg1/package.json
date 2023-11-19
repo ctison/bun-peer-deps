@@ -1,7 +1,9 @@
 {
+  "name": "pkg1",
   "private": true,
   "peerDependencies": {
     "ethers": "5"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "type": "module"
 }
